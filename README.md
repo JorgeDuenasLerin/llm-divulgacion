@@ -5,5 +5,5 @@ llm-divulgacion
 ## Generar PDF
 
 ```
-npx @marp-team/marp-cli@latest <markdownfile> --pdf --theme-set ./styles/upm.css --allow-local-files
+npx @marp-team/marp-cli@latest llm.md --pdf --allow-local-files
 ```

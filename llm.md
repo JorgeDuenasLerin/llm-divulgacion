@@ -1,141 +1,143 @@
 ---
 marp: true
-theme: default
-class: invert
+theme: gaia
 paginate: true
-backgroundColor: #fff
-color: #000
+author: Juan Pérez
+date: 2025-04-08
 ---
 
-# LLMs: Los robots que entienden (casi) todo lo que decimos… ¡y más! 🤖🧠
+<!-- _class: lead -->
+<!-- _footer: Jorge Dueñas Lerín - Universidad Politécnica de Madrid -->
 
-## ¡Bienvenidos al futuro de la inteligencia artificial!
-
----
-
-## 1. Introducción: ¿Qué harías si tuvieras un robot superinteligente? 🦸‍♂️🤖
-
-**Encuesta rápida**: ¿Cuál de estas opciones elegirías?
-
-- "Que me haga la tarea de matemáticas" ➕➖✖️➗
-
-- "Que cree memes personalizados" 🖼️😂
-
-- "Que me explique la teoría de Einstein con canciones de Bad Bunny" 🎶🧑‍🎤
-
-- "Que hable con mi perro" 🐶🗨️
-
-**Conclusión**: ¡Los LLMs están cerca de hacer todo eso! (Pero no pueden hablar con tu perro… todavía 😉).
+# Grandes modelos del lenguaje 📖⏳
 
 ---
 
-## 2. ¿Qué es un LLM? 🤔
+# ¿Cuánto tiempo tardarías en leer este libro? 📖⏳
 
-**Large Language Model (Modelo de Lenguaje a Gran Escala)**:
-
-- **Analogía**: Es como un loro gigante que ha leído todos los libros, tweets y artículos de Internet… pero en vez de repetir, aprende patrones para crear respuestas nuevas.
-
-- **No piensa, sino calcula probabilidades**: Si dices "Hola, ¿cómo...", el modelo calcula que lo más probable es que sigas con "estás?".
-
----
-
-## 3. ¡Pero son MULTIMODALES! 🎨🎵🎥
-
-**Ejemplo**: Ahora no solo procesan texto, también imágenes, voz o videos. ¡Como si el loro supiera pintar cuadros o cantar!
-
-**¿Deberían llamarse de otra forma?**
-
-- **Propuesta divertida**: "Large Lenguage Model" (juego de palabras en inglés: "lenguaje" + "todo").
-
-- **Debate rápido**: ¿Qué nombre le pondrían ustedes? ¿Modelos Cerebro Digital? ¿Máquinas TodoTerreno? (Involucra al público).
-- **Nombre**: multilingual, multimodal generative pre-trained transformer
+* **Edad 15-18 años**: Entre 200 y 250 ppm 🧑‍🎓
+* **Cuentos de la Alhambra**:
+    - Palabras: 115 000 📝
+    - Fichero en texto: 700 KBytes 💾
+* **Total**: 460 minutos -> 7.5 horas sin parar ⏱️
 
 ---
 
-## 4. ¿Cómo funcionan? (Explicación simplificada) 🧑‍🏫
+## ¿Sabías que hay modelos de lenguaje que han "leído" millones de libros? 🤯📚
 
-**Entrenamiento**:
-
-- **Metáfora visual**: Imaginen que el modelo es un estudiante que ha absorbido Wikipedia, TikTok y todas las bibliotecas del mundo… pero en segundos.
-
-- **Dato curioso**: GPT-4 ha leído más libros de los que una persona leería en 1000 vidas 🧐.
-
-**Generación de respuestas**:
-
-- **Ejemplo interactivo**: Si le preguntan "¿Cómo conquistar el mundo?", no planea maldades… solo combina palabras que ha visto en películas, artículos o memes.
+* **GPT-3**: Procesó alrededor de 570 GB de texto en 2020
+    - ¡Equivalente a cientos de miles de libros! 📚
+    * 6 368 064 años de lectura continua 📖🕰️
+* **Modelos actuales**:
+    - Claude, Gemini, ChatGPT... 🤖
+    - Han leído aún más datos para comprender mejor el lenguaje humano. 🧠
 
 ---
 
-## 5. Usos cotidianos (¡que ya existen!) 🏠📱
+## ¿Cómo leen tan rápido?
 
-**Modo texto**:
+### La "ventana de contexto" 🧐
 
-- Traductores instantáneos, ayuda con ensayos, chatbots de servicio al cliente.
+- Cuando leemos, podemos recordar las últimas palabras y frases para entender la historia y el contexto. 🧩
 
-**Modo multimodal**:
+"*Alguien dejó su paraguas en la sala. Espero que **regrese** a buscar**lo**.*"
 
-- **Ejemplo 1**: Describe una escena como "un dragón comiendo pizza en Nueva York" y DALL-E la dibuja.
-
-- **Ejemplo 2**: Google Lens: apuntas con tu cámara a un cartel en japonés y te lo traduce al instante.
-
-**Reflexión**: ¿Qué uso innovador propondrían ustedes? (Lluvia de ideas en 1 minuto).
+* ¿Quién regresa? ¿Qué o a quién busca? 🤔
 
 ---
 
-## 6. Desafíos y ética 🚨⚖️
+## ¿Cómo leen tan rápido?
 
-**Errores graciosos**:
+![width:400px](./res/atención.gif) 
 
-- A veces inventan datos (alucinan), como decir que los pingüinos son mamíferos voladores 😅.
-
-**Riesgos serios**:
-
-- Deepfakes (videos falsos), sesgos en respuestas, adicción a chatbots.
-
-**Pregunta clave**: ¿Cómo evitar que estos modelos se usen para engañar o dañar a otros? (Discusión grupal breve).
+**¿Cuántas palabras pensáis que puede mirar a la vez?** 🤔
 
 ---
 
-## 7. Conclusión: ¿El futuro? 🚀🔮
+## La ventana de contexto 🔍
 
-**Predicción**:
-
-- Pronto los LLMs serán como asistentes 24/7: ayudarán en clases, crearán videojuegos o hasta diagnosticarán enfermedades.
-
-**Mensaje final**:
-
-- ¡Ustedes pueden ser los que programen estos modelos! ¿Qué les gustaría inventar?
-
----
-
-## 8. Extra: Actividad práctica (opcional) 🎲🧩
-
-**Juego "Humano vs. LLM"**:
-
-- Comparan respuestas de ChatGPT (previamente preparadas) con las de un voluntario. ¿Adivinan cuál es cuál?
-
-**Reto creativo**:
-
-- En grupos, diseñan un LLM multimodal para resolver un problema de su colegio (ej: organizar fiestas, resolver peleas entre amigos).
+* **Tamaño de ventana** varía según el modelo:
+    - Comienzo 2096, ahora entre 32 768 y 1 000 000 tokens 🔢
+    * **Claude** un modelo de Anthropic:
+        - 200 000 tokens
+        - 150 000 palabras
+        - 500 páginas 📚📚📚
+* ¡Cada palabra con el contexto de **500 páginas**! 😲
 
 ---
 
-## Notas para el presentador 📝
+## Entonces, ¿qué es un Modelo de Lenguaje de Gran Tamaño (LLM)? 🤔
 
-**Tono**:
+- Es como un **loro gigante** que ha leído todo Internet… pero en vez de repetir, aprende patrones para crear respuestas nuevas. 🦜💬
+- No entiende como un humano, pero reconoce patrones y genera respuestas basadas en **probabilidades**. 🎲 [Ramón 1](https://www.youtube.com/watch?v=Vu5gyw4RJGk#t=10s) [Ramón 2](https://www.youtube.com/watch?v=Vu5gyw4RJGk#t=70s)
 
-- Evita tecnicismos; usa humor y ejemplos de su cultura (redes sociales, videojuegos, series).
-
-**Interacción**:
-
-- Cada 2-3 diapositivas, incluye una pregunta o actividad para mantener su atención.
-
-**Visuales**:
-
-- Muestra ejemplos en tiempo real si es posible (ej: generar una imagen con DALL-E en directo).
+![width:400px](./res/ramon.png)
 
 ---
 
-## ¡Gracias por su atención! 🙌
+## Entonces, ¿qué es un Modelo de Lenguaje de Gran Tamaño (LLM)? 🤔
 
-### ¿Tienen preguntas o comentarios? 🗣️💬
+- **No piensa, sino calcula probabilidades**:
+    - Si dices *"Hola, ¿cómo..."*
+    - el modelo calcula que lo más probable es que sigas con 🤖➡️🗨️
+    - *"estás?"*
+
+---
+
+## ¿Cómo aprenden? 🧠💡
+
+- **Inspiración en el cerebro humano** 🧠
+- **Redes neuronales artificiales** 🔗
+
+![width:1024px](./res/pcneurona.png)
+
+---
+
+## ¡Pero son MULTIMODALES! 🎨🎵🎥
+
+**Ejemplo**: Ahora no solo procesan texto, también imágenes, voz o videos. ¡Como si el loro supiera pintar cuadros o cantar! 🦜🖼️🎤
+
+**¿Deberían llamarse de otra forma?** 🤔
+
+---
+
+## ¿Qué harías si tuvieras un robot superinteligente? 🤖💡
+
+- Que me haga un resumen de historia. 📚
+- Que cree memes personalizados. 🖼️😂
+- Que me explique cómo resolver ecuaciones con canciones de Bad Bunny. 🎶🧑‍🎤
+- Que hable con mi perro. 🐶🗨️
+
+---
+
+## ¿Sabías que los LLMs están cerca de hacer todo eso? 😲
+
+- Pueden **ayudarte** con tareas escolares. 📖📝
+- Generar imágenes y memes. 🖼️😂
+- **Explicar** conceptos complejos de formas creativas. 🎨🧠
+- ¡Pero aún no pueden hablar con tu perro... todavía! 😉🐕
+- **Esta tecnología tiene pocos años. Todos estamos aprendiendo.** 🆕
+
+---
+
+## ¿Cómo podemos aprender a usar esta nueva tecnología? 🛠️
+
+- Experimentando con herramientas. ¡Hay muchas! 🧪🖥️
+- Siendo críticos con la información que generan. 🧐
+- Aprendiendo sobre ética y uso responsable de la IA. ⚖️
+
+* **Errores graciosos**: A veces inventan datos (alucinan), como decir que los pingüinos son mamíferos voladores. 😅🐧
+
+* **Riesgos serios**: Deepfakes (videos falsos), sesgos en respuestas, adicción a chatbots. 🚨🎭
+
+---
+
+## ¡Gracias por tu atención! 🙌
+
+* **Predicción**:
+
+    - Pronto los LLMs serán como asistentes 24/7: ayudarán en clases, crearán videojuegos o hasta diagnosticarán enfermedades. ⏳🧑‍🏫🎮🩺
+
+* **Mensaje final**:
+    - ¡Podéis  ser los que programen estos modelos! 👩‍💻👨‍💻
+    - ¿Qué os gustaría inventar? 💡🚀
